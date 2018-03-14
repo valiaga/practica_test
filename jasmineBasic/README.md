@@ -26,24 +26,19 @@ in your file html base
 
 ```html
 <!DOCTYPE html>  
+<!DOCTYPE html>
 <html>
-<head>  
-    <meta charset="utf-8">
-    <title>Jasmine Spec Runner v2.4.1</title>
 
-    <link rel="shortcut icon" type="image/png" href="lib/jasmine-2.4.1/jasmine_favicon.png">
-    <link rel="stylesheet" href="lib/jasmine-2.4.1/jasmine.css">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Test with Jasmine</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <script src="lib/jasmine-2.4.1/jasmine.js"></script>
-    <script src="lib/jasmine-2.4.1/jasmine-html.js"></script>
-    <script src="lib/jasmine-2.4.1/boot.js"></script>
-    <!-- include source files here... -->
-
-    <!-- include spec files here... -->
 </head>
-<body>  
+<body>
 </body>
-</html> 
+</html>
 ```
 Insert the librerias Jasmine.
 ```html
@@ -63,3 +58,28 @@ Insert the files `.js` and `.spec.js` in the file html
     <script src="./spec/scripts/hello-world.spec.js"></script>
 ``` 
 Then just drag the html to the browser.
+
+All version file complete
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Test with Jasmine</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./node_modules/jasmine-core/lib/jasmine-core/jasmine.css">
+    <script src="./node_modules/jasmine-core/lib/jasmine-core/jasmine.js"></script>
+    <script src="./node_modules/jasmine-core/lib/jasmine-core/jasmine-html.js"></script>
+    <script src="./node_modules/jasmine-core/lib/jasmine-core/boot.js"></script>
+
+    <script src="./scripts/hello-world.js"></script>
+    <script src="./spec/scripts/hello-world.spec.js"></script>
+</head>
+
+<body>
+</body>
+
+</html>
+```
