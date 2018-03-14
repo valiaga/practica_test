@@ -1,0 +1,8 @@
+/node_modules
+/lib
+/spec
+
+package-lock.json
+
+#IDES 
+.vscode/*
