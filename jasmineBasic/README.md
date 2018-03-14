@@ -1,4 +1,4 @@
-# Steps por test width Jasmine
+# Steps por test with Jasmine
 
 ## OPC 1
 The option one is only line commands.
